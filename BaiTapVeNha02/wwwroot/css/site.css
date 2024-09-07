@@ -1,0 +1,69 @@
+/* Tiêu đề */
+.header {
+    display: flex;
+    justify-content: center; /* Căn giữa nội dung */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    background-color: lightgray; /* Màu nền tiêu đề */
+    height: 80px; /* Chiều cao tiêu đề */
+    margin-bottom: 20px; /* Khoảng cách giữa tiêu đề và nội dung bên dưới */
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0; /* Bỏ khoảng cách mặc định của h1 */
+}
+
+/* Chia layout thành hai cột */
+.container {
+    display: flex;
+    justify-content: space-between; /* Căn chỉnh khoảng cách giữa các cột */
+    padding: 20px;
+    background-color: lightgray;
+    max-width: 1200px; /* Giới hạn chiều rộng của container để tạo không gian hai bên */
+    margin: 0 auto; /* Căn giữa container */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Thêm bóng để nổi bật */
+}
+
+.left-column {
+    width: 45%; /* Chiếm 45% chiều rộng của container */
+    background-color: #f0f0f0;
+    padding: 20px;
+    font-size: 24px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1); /* Thêm bóng cho cột */
+}
+
+.right-column {
+    width: 45%; /* Chiếm 45% chiều rộng của container */
+    background-color: #ffffff;
+    padding: 20px;
+    font-size: 24px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1); /* Thêm bóng cho cột */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #cccccc;
+    font-size: 20px;
+    margin: 20px auto; /* Căn giữa footer và tạo khoảng cách */
+    max-width: 1200px; /* Giới hạn chiều rộng của footer để căn giữa */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Thêm bóng để nổi bật */
+}
+
+/* Media Queries để đáp ứng kích thước màn hình nhỏ hơn */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Đổi chiều của layout khi màn hình nhỏ */
+        max-width: 100%; /* Chiếm toàn bộ chiều rộng */
+    }
+
+    .left-column, .right-column {
+        width: 100%; /* Chiếm toàn bộ chiều rộng khi màn hình nhỏ */
+        margin-bottom: 20px; /* Thêm khoảng cách giữa các cột */
+    }
+
+    .right-column {
+        margin-bottom: 0; /* Xóa khoảng cách cuối cùng khi chỉ có một cột còn lại */
+    }
+}

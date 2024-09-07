@@ -1,0 +1,26 @@
+﻿    
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="header">
+    <h1>Bài tập</h1>
+</div>
+
+<div class="container">
+
+    <div class="left-column">
+        <p>Họ tên: @ViewBag.HoTen</p>
+        <p>MSSV: @ViewBag.MSSV</p>
+    </div>
+
+    <div class="right-column">
+        <p>Giới thiệu bản thân</p>
+        Hello!
+        <p>@ViewBag.GioiThieuBanThan</p>
+    </div>
+</div>
+
+<footer>
+    <p>Copyright @ViewBag.HoTen - @ViewBag.Nam</p>
+</footer>

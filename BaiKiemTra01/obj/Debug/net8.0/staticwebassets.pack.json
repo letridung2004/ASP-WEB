@@ -45,8 +45,16 @@
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
     },
     {
+      "Id": "C:\\githup\\ASP-WEB\\BaiKiemTra01\\wwwroot\\images\\Hinh-anh-chuot-Hamster.jpg",
+      "PackagePath": "staticwebassets\\images\\Hinh-anh-chuot-Hamster.jpg"
+    },
+    {
       "Id": "C:\\githup\\ASP-WEB\\BaiKiemTra01\\wwwroot\\images\\about-img.jpg",
       "PackagePath": "staticwebassets\\images\\about-img.jpg"
+    },
+    {
+      "Id": "C:\\githup\\ASP-WEB\\BaiKiemTra01\\wwwroot\\images\\anh chup\\Annotation 2024-09-14 151629.png",
+      "PackagePath": "staticwebassets\\images\\anh chup\\Annotation 2024-09-14 151629.png"
     },
     {
       "Id": "C:\\githup\\ASP-WEB\\BaiKiemTra01\\wwwroot\\images\\client-1.png",

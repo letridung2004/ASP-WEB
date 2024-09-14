@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UIrS8DjJBy66G9wTwU3zdsv3IixOOAHQpN/TuTgi2yc=",
+  "Hash": "G91lUae/E5ZEeyQunsVGaRRexqjR2r2ysqcW6M1nR4Q=",
   "Source": "BaiKiemTra01",
   "BasePath": "_content/BaiKiemTra01",
   "Mode": "Default",
@@ -264,6 +264,25 @@
       "OriginalItemSpec": "wwwroot\\images\\about-img.jpg"
     },
     {
+      "Identity": "C:\\githup\\ASP-WEB\\BaiKiemTra01\\wwwroot\\images\\anh chup\\Annotation 2024-09-14 151629.png",
+      "SourceId": "BaiKiemTra01",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\githup\\ASP-WEB\\BaiKiemTra01\\wwwroot\\",
+      "BasePath": "_content/BaiKiemTra01",
+      "RelativePath": "images/anh chup/Annotation 2024-09-14 151629.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\anh chup\\Annotation 2024-09-14 151629.png"
+    },
+    {
       "Identity": "C:\\githup\\ASP-WEB\\BaiKiemTra01\\wwwroot\\images\\client-1.png",
       "SourceId": "BaiKiemTra01",
       "SourceType": "Discovered",
@@ -319,6 +338,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\fevicon.png"
+    },
+    {
+      "Identity": "C:\\githup\\ASP-WEB\\BaiKiemTra01\\wwwroot\\images\\Hinh-anh-chuot-Hamster.jpg",
+      "SourceId": "BaiKiemTra01",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\githup\\ASP-WEB\\BaiKiemTra01\\wwwroot\\",
+      "BasePath": "_content/BaiKiemTra01",
+      "RelativePath": "images/Hinh-anh-chuot-Hamster.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Hinh-anh-chuot-Hamster.jpg"
     },
     {
       "Identity": "C:\\githup\\ASP-WEB\\BaiKiemTra01\\wwwroot\\images\\next.png",

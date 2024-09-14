@@ -13,9 +13,9 @@ namespace BaiKiemTra01.Controllers
         {
             var sanpham = new SanPhamViewModel()
             {
-                TenSP = "LapTop",
-                GiaBan = 15000000,
-                AnhMoTa = "/wwwroot/images/laptop.jpg"
+                TenSP = "Chuot hamster",
+                GiaBan = 5000000,
+                AnhMoTa = "/images/Hinh-anh-chuot-Hamster"
             };
             return View(sanpham);
         }

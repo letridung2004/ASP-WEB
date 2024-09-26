@@ -1,0 +1,178 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\githup\\ASP-WEB\\Baitap07\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{082DE5D0-C5C0-45CC-B3BB-088D8F1A9D72}|Baitap07\\Baitap07.csproj|c:\\githup\\asp-web\\baitap07\\baitap07\\views\\theloai\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{082DE5D0-C5C0-45CC-B3BB-088D8F1A9D72}|Baitap07\\Baitap07.csproj|solutionrelative:baitap07\\views\\theloai\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082DE5D0-C5C0-45CC-B3BB-088D8F1A9D72}|Baitap07\\Baitap07.csproj|c:\\githup\\asp-web\\baitap07\\baitap07\\views\\theloai\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{082DE5D0-C5C0-45CC-B3BB-088D8F1A9D72}|Baitap07\\Baitap07.csproj|solutionrelative:baitap07\\views\\theloai\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082DE5D0-C5C0-45CC-B3BB-088D8F1A9D72}|Baitap07\\Baitap07.csproj|c:\\githup\\asp-web\\baitap07\\baitap07\\controllers\\theloaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{082DE5D0-C5C0-45CC-B3BB-088D8F1A9D72}|Baitap07\\Baitap07.csproj|solutionrelative:baitap07\\controllers\\theloaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082DE5D0-C5C0-45CC-B3BB-088D8F1A9D72}|Baitap07\\Baitap07.csproj|c:\\githup\\asp-web\\baitap07\\baitap07\\data\\migrations\\20240926042757_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{082DE5D0-C5C0-45CC-B3BB-088D8F1A9D72}|Baitap07\\Baitap07.csproj|solutionrelative:baitap07\\data\\migrations\\20240926042757_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082DE5D0-C5C0-45CC-B3BB-088D8F1A9D72}|Baitap07\\Baitap07.csproj|c:\\githup\\asp-web\\baitap07\\baitap07\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{082DE5D0-C5C0-45CC-B3BB-088D8F1A9D72}|Baitap07\\Baitap07.csproj|solutionrelative:baitap07\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082DE5D0-C5C0-45CC-B3BB-088D8F1A9D72}|Baitap07\\Baitap07.csproj|c:\\githup\\asp-web\\baitap07\\baitap07\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{082DE5D0-C5C0-45CC-B3BB-088D8F1A9D72}|Baitap07\\Baitap07.csproj|solutionrelative:baitap07\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082DE5D0-C5C0-45CC-B3BB-088D8F1A9D72}|Baitap07\\Baitap07.csproj|c:\\githup\\asp-web\\baitap07\\baitap07\\models\\theloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{082DE5D0-C5C0-45CC-B3BB-088D8F1A9D72}|Baitap07\\Baitap07.csproj|solutionrelative:baitap07\\models\\theloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082DE5D0-C5C0-45CC-B3BB-088D8F1A9D72}|Baitap07\\Baitap07.csproj|c:\\githup\\asp-web\\baitap07\\baitap07\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{082DE5D0-C5C0-45CC-B3BB-088D8F1A9D72}|Baitap07\\Baitap07.csproj|solutionrelative:baitap07\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082DE5D0-C5C0-45CC-B3BB-088D8F1A9D72}|Baitap07\\Baitap07.csproj|c:\\githup\\asp-web\\baitap07\\baitap07\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{082DE5D0-C5C0-45CC-B3BB-088D8F1A9D72}|Baitap07\\Baitap07.csproj|solutionrelative:baitap07\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\githup\\ASP-WEB\\Baitap07\\Baitap07\\Program.cs",
+              "RelativeDocumentMoniker": "Baitap07\\Program.cs",
+              "ToolTip": "C:\\githup\\ASP-WEB\\Baitap07\\Baitap07\\Program.cs",
+              "RelativeToolTip": "Baitap07\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T04:17:38.017Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\githup\\ASP-WEB\\Baitap07\\Baitap07\\Views\\TheLoai\\Create.cshtml",
+              "RelativeDocumentMoniker": "Baitap07\\Views\\TheLoai\\Create.cshtml",
+              "ToolTip": "C:\\githup\\ASP-WEB\\Baitap07\\Baitap07\\Views\\TheLoai\\Create.cshtml",
+              "RelativeToolTip": "Baitap07\\Views\\TheLoai\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T05:00:03.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\githup\\ASP-WEB\\Baitap07\\Baitap07\\Views\\TheLoai\\Index.cshtml",
+              "RelativeDocumentMoniker": "Baitap07\\Views\\TheLoai\\Index.cshtml",
+              "ToolTip": "C:\\githup\\ASP-WEB\\Baitap07\\Baitap07\\Views\\TheLoai\\Index.cshtml",
+              "RelativeToolTip": "Baitap07\\Views\\TheLoai\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T04:35:26.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TheLoaiController.cs",
+              "DocumentMoniker": "C:\\githup\\ASP-WEB\\Baitap07\\Baitap07\\Controllers\\TheLoaiController.cs",
+              "RelativeDocumentMoniker": "Baitap07\\Controllers\\TheLoaiController.cs",
+              "ToolTip": "C:\\githup\\ASP-WEB\\Baitap07\\Baitap07\\Controllers\\TheLoaiController.cs",
+              "RelativeToolTip": "Baitap07\\Controllers\\TheLoaiController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T04:34:34.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240926042757_init.cs",
+              "DocumentMoniker": "C:\\githup\\ASP-WEB\\Baitap07\\Baitap07\\Data\\Migrations\\20240926042757_init.cs",
+              "RelativeDocumentMoniker": "Baitap07\\Data\\Migrations\\20240926042757_init.cs",
+              "ToolTip": "C:\\githup\\ASP-WEB\\Baitap07\\Baitap07\\Data\\Migrations\\20240926042757_init.cs",
+              "RelativeToolTip": "Baitap07\\Data\\Migrations\\20240926042757_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T04:27:57.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\githup\\ASP-WEB\\Baitap07\\Baitap07\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Baitap07\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\githup\\ASP-WEB\\Baitap07\\Baitap07\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Baitap07\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T04:26:11.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\githup\\ASP-WEB\\Baitap07\\Baitap07\\appsettings.json",
+              "RelativeDocumentMoniker": "Baitap07\\appsettings.json",
+              "ToolTip": "C:\\githup\\ASP-WEB\\Baitap07\\Baitap07\\appsettings.json",
+              "RelativeToolTip": "Baitap07\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-26T04:23:45.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TheLoai.cs",
+              "DocumentMoniker": "C:\\githup\\ASP-WEB\\Baitap07\\Baitap07\\Models\\TheLoai.cs",
+              "RelativeDocumentMoniker": "Baitap07\\Models\\TheLoai.cs",
+              "ToolTip": "C:\\githup\\ASP-WEB\\Baitap07\\Baitap07\\Models\\TheLoai.cs",
+              "RelativeToolTip": "Baitap07\\Models\\TheLoai.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T04:21:26.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\githup\\ASP-WEB\\Baitap07\\Baitap07\\.gitignore",
+              "RelativeDocumentMoniker": "Baitap07\\.gitignore",
+              "ToolTip": "C:\\githup\\ASP-WEB\\Baitap07\\Baitap07\\.gitignore",
+              "RelativeToolTip": "Baitap07\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG/SURBVDhPrZRNTgIxFMerDIaEhHgU97JxwUKGGaNeQJdyCY0XUBDWGhg4AB\u002BuvQk7OQCRFTP1fXWmMxUMCT94ee177eu/LVQdFK31kTSJ0WgEIa0SMJ2A6QTHcF9iicQqlYpa/6zv2\u002B2HD5nuEkWR/l4udRzHZBtjGzFor1YrPR6P9WKx0MNhpN96vTuZThyLJ1AJLK/iJFFxjBanBsXIozqkWq2qev1c1Wq19063e0ZBwBNP4JaQ6WRC/i8ajQb5wWBAvnxyghpOqQPkC8L5IEEQKjgxaqOTFsCd65tb6nmlkur1\u002BxwXCgX58KfT7QptwvCK52wrSLcJvtUKOABkQ6HFXwbGsmMRBkchzpjNphLZDSrEn5G1qnsp\u002BPEtheloXouRnXDTTjhb5tXmeyg0IgzuliHp\u002By0OANbiOCDXp1IYo3mMUxBT8/mMA/8QhGH6ZzC4Zwi5ZqoQB9M3h62I/\u002B/SAQpniBmtPvdQyGeYUdgyX8pl05eIBSxmTzQYEYbc42AuJQWLGJNQEcrJG4A4BTHneSW2sqfKOyybkxXMPbAvrx3IsyLzkPJFmUcWYtDntjG6lIvnp8cvKXNIlPoFvstpJRlQPIAAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-09-26T04:18:05.62Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

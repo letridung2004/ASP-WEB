@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Contract>
+
+<table>
+    <tr>
+        <th>Mã hợp đồng</th>
+        <th>Tên hợp đồng</th>
+        <th>Ngày ký kết</th>
+        <th>Khách hàng</th>
+        <th>Giá trị</th>
+        <th>Hành động</th>
+    </tr>
+    @foreach (var contract in Model)
+    {
+        <tr>
+            <td>@contract.ContractId</td>
+            <td>@contract.ContractName</td>
+            <td>@contract.SigningDate</td>
+            <td>@contract.Customer.CustomerName</td>
+            <td>@contract.ContractValue</td>
+            <td>
+                <a href="/Contract/Details/@contract.ContractId">Chi tiết</a> |
+                <a href="/Contract/Edit/@contract.ContractId">Chỉnh sửa</a> |
+                <a href="/Contract/Delete/@contract.ContractId">Xóa</a>
+            </td>
+        </tr>
+    }
+</table>

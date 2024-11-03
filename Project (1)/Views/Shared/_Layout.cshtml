@@ -1,77 +1,178 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-  <title>DungShop</title>
+    <title>DungShop</title>
 
-  <!-- slider stylesheet -->
-  <!-- slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <!-- slider stylesheet -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700&display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="~/css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="~/css/responsive.css" rel="stylesheet" />
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+    <style>
+        /* Đổi màu nền cho toàn bộ trang */
+        body {
+            background-color: #e0f7fa; /* Thay đổi mã màu theo ý bạn */
+        }
 
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700&display=swap" rel="stylesheet">
-  <!-- Custom styles for this template -->
-  <link href="~/css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="~/css/responsive.css" rel="stylesheet" />
-  <style>
-    body {
-background-color: #D3D3D3; /* Thay đổi mã màu theo ý bạn */
-    }
-  </style>
+        /* Đổi màu chữ cho các mục trên thanh điều hướng */
+        .navbar-nav .nav-item .nav-link {
+            color: #333333; /* Màu chữ mặc định cho các mục */
+        }
+
+            .navbar-nav .nav-item .nav-link:hover {
+                color: #ff6347; /* Màu chữ khi di chuột */
+            }
+
+        /* Đổi màu riêng cho mục "Home" */
+        .navbar-nav .nav-item.active .nav-link {
+            color: #ff4500; /* Đổi sang màu cam đậm */
+        }
+
+        /* Đổi màu riêng cho mục "Thể loại" */
+        .navbar-nav .nav-item:nth-child(2) .nav-link {
+            color: #ff4500; /* Đổi sang màu cam đậm */
+        }
+
+        /* Cài đặt cho chatbox */
+        #chatBox {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 300px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            font-family: Arial, sans-serif;
+        }
+
+        #chatHeader {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #chatContent {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            max-height: 300px;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+            #chatContent.hidden {
+                max-height: 0;
+                padding: 0;
+            }
+
+        #messagesList {
+            flex-grow: 1;
+            overflow-y: auto;
+            margin-bottom: 10px;
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        .message {
+            margin: 5px 0;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: #e8f0fe;
+        }
+
+        #userInput, #messageInput {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 5px;
+            margin-bottom: 5px;
+            width: calc(100% - 12px);
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+    </style>
 </head>
 <body>
-<!-- header section strats -->
+    <!-- header section starts -->
     <header class="header_section">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
-          <a class="navbar-brand" href="index.html">
-            <span>
-              DungShop
-            </span>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="/Customer/Home/Index">Home</a>
-                </li>
-                    @await Component.InvokeAsync("TheLoai")                           
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact us</a>
-                </li>
-                            <partial name="_LoginPartial" />
-              </ul>
-              <div class="user_option">
-                <a href="">
-                  <img src="images/user.png" alt="">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+                <a class="navbar-brand" href="index.html">
+                    <span style="color:deepskyblue;">
+                        DungShop
+                    </span>
+                    <header>
+                        <a href="https://trangchu.com"><img src="~/images/logo.webp" alt="Logo" class="logo"></a>
+                        <style>
+                            .logo {
+                                width: 70px;
+                                height: auto;
+                            }
+                        </style>
+                    </header>
                 </a>
-                <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
-                  <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="/Customer/Home/Index">Home</a>
+                            </li>
+                            @await Component.InvokeAsync("TheLoai")
+
+                            <partial name="_LoginPartial" />
+                        </ul>
+                        <div class="user_option">
+                            <a href="">
+                                <img src="images/user.png" alt="">
+                            </a>
+                            <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                                <button class="btn my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
     <!-- end header section -->
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -79,16 +180,67 @@ background-color: #D3D3D3; /* Thay đổi mã màu theo ý bạn */
     </div>
 
     <!-- footer section -->
-  <section class="container-fluid footer_section">
-    <p>
-      Le Tri Dung
-    </p>
-  </section>
-  <!-- footer section -->
- <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-  </script>
+    <section class="container-fluid footer_section">
+        <div class="contact-info">
+            <h3>Thông tin liên hệ</h3>
+            <p>Email: dungshop@gmail.com</p>
+            <p>Điện thoại: 0913478990</p>
+        </div>
+        <div class="store-location">
+            <h3>Vị trí cửa hàng</h3>
+            <p>Địa chỉ: 13 Nguyễn Ái Quốc, Phường Trung Dũng, Thành phố Biên Hoà</p>
+        </div>
+        <div class="additional-info">
+            <h3>Thông tin khác</h3>
+            <p>Giờ mở cửa: 8:00 - 21:00 mỗi ngày</p>
+            <p>Website: <a href="https://www.dungshop.com">www.dungshop.com</a></p>
+        </div>
+        <p>LeDung</p>
+    </section>
+    <!-- footer section -->
+    <!-- Chatbox -->
+    <div id="chatBox">
+        <div id="chatHeader" onclick="toggleChat()">
+            Chat với chúng tôi
+        </div>
+        <div id="chatContent" class="hidden">
+            <div id="messagesList"></div>
+            <input type="text" id="userInput" placeholder="Tên của bạn" />
+            <input type="text" id="messageInput" placeholder="Nhập tin nhắn..." />
+            <button onclick="sendMessage()">Gửi</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.9/signalr.min.js"></script>
+    <script>
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/chathub")
+            .build();
+
+        connection.start().catch(err => console.error(err.toString()));
+
+        connection.on("ReceiveMessage", (user, message) => {
+            const msg = document.createElement("div");
+            msg.className = "message";
+            msg.textContent = `${user}: ${message}`;
+            document.getElementById("messagesList").appendChild(msg);
+        });
+
+        function sendMessage() {
+            const user = document.getElementById("userInput").value;
+            const message = document.getElementById("messageInput").value;
+            connection.invoke("SendMessage", user, message).catch(err => console.error(err.toString()));
+        }
+
+        function toggleChat() {
+            const chatContent = document.getElementById("chatContent");
+            chatContent.classList.toggle("hidden");
+        }
+    </script>
+
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

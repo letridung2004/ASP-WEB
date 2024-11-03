@@ -61,7 +61,7 @@ namespace Project1.Controllers
 				}
 				//Luu lại
 				_db.SaveChanges();
-				return RedirectToAction("Index");
+				return View(Index);
 			}
 			return View();
 		}
